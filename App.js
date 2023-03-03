@@ -8,7 +8,7 @@ function SplashScreen({ navigation }) {
   return (
     <>
       <View style={{ flex: 1, backgroundColor: 'black', justifyContent: 'center', alignItems: 'center' }}>
-        < Image  source={require('./img1.jpg')} style={{ height: 100, width: 100, borderRadius: 100 }} />
+        < Image  source={require('./src/assets/img1.jpg')} style={{ height: 100, width: 100, borderRadius: 100 }} />
       </View>
     </> 
   )
