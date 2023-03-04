@@ -6,7 +6,7 @@ import { WebView } from 'react-native-webview';
 
 
 function SplashScreen({ navigation }) {
-  setTimeout(() => { navigation.navigate('NextScreen') }, 5000);
+  setTimeout(() => { navigation.navigate('NextScreen') }, 1000);
   return (
     <>
       <View style={{ flex: 1, backgroundColor: 'black', justifyContent: 'center', alignItems: 'center' }}>
